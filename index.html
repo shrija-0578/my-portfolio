@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Shrija Lal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">MyPortfolio</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="main">
+        <div class="main-text">
+            <h1>Hello, I'm <span>Shrija Lal</span></h1>
+            <p>Aspiring Web Developer | HTML, CSS, GitHub</p>
+            <button class="btn">Hire Me</button>
+        </div>
+        <div class="main-img">
+            <!-- Referencing the visual style from Screenshot (37).jpg -->
+            <img src="shrija-profile.jpg" alt="Shrija Lal">
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skill-tags">
+            <div>HTML</div >
+            <div>CSS</div >
+            <div>Responsive Design</div >
+            <div>Git & GitHub</div >
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="card">
+                <h3>Portfolio Website</h3>
+                <p>Responsive HTML & CSS portfolio design.</p>
+            </div>
+            <div class="card">
+                <h3>Student Registration Form</h3>
+                <p>Clean & validated form using HTML.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="hobbies">
+        <h2>Photography & Art</h2>
+        <div class="gallery-container">
+            <div class="gallery-slider">
+                <div class="slide"><img src="photography1.jpg" alt="Photography"></div>
+                <div class="slide"><img src="art1.jpg" alt="Art"></div>
+                <div class="slide"><img src="photography2.jpg" alt="Photography"></div>
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label>Full Name</label>
+            <input type="text" placeholder="Your Name">
+            <label>Email</label>
+            <input type="email" placeholder="Your Email">
+            <label>Message</label>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit" class="btn-send">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
