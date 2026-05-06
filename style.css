@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
 }
 /* 
 dark blue #5B23FF;
@@ -190,6 +191,7 @@ input, textarea { width: 100%; padding: 15px; margin: 10px 0 20px; border: 1px s
     .main { padding: 0 5%; }
     .main-text h1 { font-size: 3rem; }
     .main-img img { width: 350px; height: 350px; }
+    * { font-size: 14px; }
 }
 
 /* For Large Phones (Max-width 768px) */
@@ -200,4 +202,5 @@ input, textarea { width: 100%; padding: 15px; margin: 10px 0 20px; border: 1px s
     .main-img img { width: 300px; height: 300px; margin-bottom: 20px; }
     .project-grid { grid-template-columns: 1fr; }
     .slide img { height: 300px; }
+    * { font-size: 10px; }
 }
