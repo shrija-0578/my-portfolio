@@ -132,7 +132,8 @@ section { padding:  10%; text-align: center; }
     gap: 10vw; 
     margin-top: 40px; 
 }
-
+.project-grid .card a { text-decoration: none; color: #ffffff; }
+   
 .card { 
     background: #020a22; 
     padding: 40px; 
