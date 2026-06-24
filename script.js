@@ -16,7 +16,7 @@ function moveSlide(step) {
     slider.style.transform = `translateX(-${currentSlide * 100}%)`;
 }
 
-// Optional: Auto-slide every 5 seconds
+
 setInterval(() => {
     moveSlide(1);
 }, 5000);
